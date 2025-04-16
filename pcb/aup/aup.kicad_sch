@@ -6,6 +6,48 @@
 	(paper "USLetter")
 	(lib_symbols)
 	(sheet
+		(at 92.964 40.64)
+		(size 42.418 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "018ff12c-0df9-4a4e-a203-c003842112a1")
+		(property "Sheetname" "power_reg"
+			(at 92.964 39.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_reg.kicad_sch"
+			(at 92.964 71.7046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "aup"
+				(path "/312a869c-f247-4883-8e23-bdad51e1754f"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 30.48 40.64)
 		(size 44.196 30.734)
 		(exclude_from_sim no)

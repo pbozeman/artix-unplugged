@@ -1,0 +1,11 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "58ac6c9d-ed18-4535-9cee-57b15c0a112d")
+	(paper "A4")
+	(title_block
+		(title "Power Regulation")
+	)
+	(lib_symbols)
+)

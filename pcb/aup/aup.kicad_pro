@@ -690,6 +690,10 @@
     [
       "66f6f111-4301-4b77-9bf5-52f6219d7e81",
       "ext_power"
+    ],
+    [
+      "018ff12c-0df9-4a4e-a203-c003842112a1",
+      "power_reg"
     ]
   ],
   "text_variables": {}
