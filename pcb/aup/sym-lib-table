@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "!Xilinx")(type "KiCad")(uri "${KIPRJMOD}/../kicad-base/lib/xilinx.kicad_sym")(options "")(descr ""))
+  (lib (name "!DF40C")(type "KiCad")(uri "${KIPRJMOD}/../kicad-base/lib/df40c/df40c.kicad_sym")(options "")(descr ""))
+  (lib (name "!Mem")(type "KiCad")(uri "${KIPRJMOD}/../kicad-base/lib/mem/mem.kicad_sym")(options "")(descr ""))
+  (lib (name "!Misc")(type "KiCad")(uri "${KIPRJMOD}/../kicad-base/lib/misc/misc.kicad_sym")(options "")(descr ""))
+)
