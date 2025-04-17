@@ -27,8 +27,8 @@ Details in "Power-on/off Power Supply Sequencing", page 8, in [DS181](https://do
 | Net       | Voltage   |
 |-----------|-----------|
 | Vccint    | 1.00      |
-| Vccaux    | 1.80 [^1] |
-| Vccbram   | 1.00      |
+| Vccaux    | 1.80      |
+| Vccbram   | 1.00 [^1] |
 | Vcco      | [^2]      |
 | Vccbatt   | [^3]      |
 
