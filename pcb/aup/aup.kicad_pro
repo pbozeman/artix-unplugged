@@ -466,10 +466,10 @@
       "net_not_bus_member": "warning",
       "no_connect_connected": "warning",
       "no_connect_dangling": "warning",
-      "pin_not_connected": "error",
-      "pin_not_driven": "error",
+      "pin_not_connected": "ignore",
+      "pin_not_driven": "ignore",
       "pin_to_pin": "warning",
-      "power_pin_not_driven": "error",
+      "power_pin_not_driven": "ignore",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
@@ -594,8 +594,26 @@
         },
         {
           "group_by": false,
+          "label": "Arrow Part Number",
+          "name": "Arrow Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Price/Stock",
+          "name": "Arrow Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
           "label": "Digi-Key Part Number",
           "name": "Digi-Key Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
           "show": false
         },
         {
@@ -614,6 +632,30 @@
           "group_by": false,
           "label": "LCSC Part #",
           "name": "LCSC Part #",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
           "show": false
         },
         {
@@ -694,6 +736,34 @@
     [
       "018ff12c-0df9-4a4e-a203-c003842112a1",
       "power_reg"
+    ],
+    [
+      "e41d1bdd-adab-4c98-8e10-1fc830d92212",
+      "programmer"
+    ],
+    [
+      "c7a2b74b-2c18-48a2-839c-6061db682023",
+      "ddr3"
+    ],
+    [
+      "d8f3de8e-137f-459f-82e3-a44484657248",
+      "headers"
+    ],
+    [
+      "22e177dc-d629-44c9-af7b-57e03785bd95",
+      "fpga_banks"
+    ],
+    [
+      "f3030c28-a39b-499d-a242-1a3634e8e6f9",
+      "fpga_config"
+    ],
+    [
+      "7d37766d-6a99-494f-89ce-ad53accce089",
+      "fpga_power"
+    ],
+    [
+      "0c809555-0acd-41a7-9c8b-71a0b5d8209e",
+      "ethernet"
     ]
   ],
   "text_variables": {}

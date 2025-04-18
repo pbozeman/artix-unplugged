@@ -3,11 +3,11 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "312a869c-f247-4883-8e23-bdad51e1754f")
-	(paper "USLetter")
+	(paper "USLedger")
 	(lib_symbols)
 	(sheet
-		(at 92.964 40.64)
-		(size 42.418 30.48)
+		(at 77.216 42.672)
+		(size 43.688 29.21)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22,7 +22,7 @@
 		)
 		(uuid "018ff12c-0df9-4a4e-a203-c003842112a1")
 		(property "Sheetname" "power_reg"
-			(at 92.964 39.9284 0)
+			(at 77.216 41.9604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +31,7 @@
 			)
 		)
 		(property "Sheetfile" "power_reg.kicad_sch"
-			(at 92.964 71.7046 0)
+			(at 77.216 72.4666 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48,8 +48,92 @@
 		)
 	)
 	(sheet
-		(at 30.48 40.64)
-		(size 44.196 30.734)
+		(at 179.324 93.726)
+		(size 48.768 33.528)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0c809555-0acd-41a7-9c8b-71a0b5d8209e")
+		(property "Sheetname" "ethernet"
+			(at 179.324 93.0144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ethernet.kicad_sch"
+			(at 179.324 127.8386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "aup"
+				(path "/312a869c-f247-4883-8e23-bdad51e1754f"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 26.924 93.726)
+		(size 43.942 33.528)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "22e177dc-d629-44c9-af7b-57e03785bd95")
+		(property "Sheetname" "fpga_banks"
+			(at 26.924 93.0144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fpga_banks.kicad_sch"
+			(at 26.924 127.8386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "aup"
+				(path "/312a869c-f247-4883-8e23-bdad51e1754f"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 26.924 42.164)
+		(size 43.688 29.21)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -64,7 +148,7 @@
 		)
 		(uuid "66f6f111-4301-4b77-9bf5-52f6219d7e81")
 		(property "Sheetname" "ext_power"
-			(at 30.48 39.9284 0)
+			(at 26.924 41.4524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73,7 +157,7 @@
 			)
 		)
 		(property "Sheetfile" "ext_power.kicad_sch"
-			(at 30.48 71.9586 0)
+			(at 26.924 71.9586 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -85,6 +169,216 @@
 			(project "aup"
 				(path "/312a869c-f247-4883-8e23-bdad51e1754f"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127.762 93.726)
+		(size 43.434 33.528)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7d37766d-6a99-494f-89ce-ad53accce089")
+		(property "Sheetname" "fpga_power"
+			(at 127.762 93.0144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fpga_power.kicad_sch"
+			(at 127.762 127.8386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "aup"
+				(path "/312a869c-f247-4883-8e23-bdad51e1754f"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 178.562 42.926)
+		(size 43.688 29.464)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c7a2b74b-2c18-48a2-839c-6061db682023")
+		(property "Sheetname" "ddr3"
+			(at 178.562 42.2144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ddr3.kicad_sch"
+			(at 178.562 72.9746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "aup"
+				(path "/312a869c-f247-4883-8e23-bdad51e1754f"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 233.426 42.926)
+		(size 42.672 29.464)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d8f3de8e-137f-459f-82e3-a44484657248")
+		(property "Sheetname" "headers"
+			(at 233.426 42.2144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "headers.kicad_sch"
+			(at 233.426 72.9746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "aup"
+				(path "/312a869c-f247-4883-8e23-bdad51e1754f"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127.508 42.672)
+		(size 43.688 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e41d1bdd-adab-4c98-8e10-1fc830d92212")
+		(property "Sheetname" "programmer"
+			(at 127.508 41.9604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "programmer.kicad_sch"
+			(at 127.508 72.4666 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "aup"
+				(path "/312a869c-f247-4883-8e23-bdad51e1754f"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 77.216 93.98)
+		(size 43.688 33.274)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f3030c28-a39b-499d-a242-1a3634e8e6f9")
+		(property "Sheetname" "fpga_config"
+			(at 77.216 93.2684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fpga_config.kicad_sch"
+			(at 77.216 127.8386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "aup"
+				(path "/312a869c-f247-4883-8e23-bdad51e1754f"
+					(page "8")
 				)
 			)
 		)
