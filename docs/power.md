@@ -50,7 +50,11 @@ Each of the GTP voltages needs a filter described in: <https://docs.amd.com/v/u/
 | Net         | Voltage |
 |-------------|---------|
 | Vccadc      | 1.80    |
-| Vrefp       | 1.25    |
+
+> Decision: on chip reference will be used, so set Vccref to GND and GNDDADC as appropriate.
+
+See <https://docs.amd.com/r/en-US/ug480_7Series_XADC/XADC-Pinout-Requirements>. At a quick glance
+Vrefp should be set to GNDADC and Vrefn should be set to GND.
 
 ### DDR Voltages
 
