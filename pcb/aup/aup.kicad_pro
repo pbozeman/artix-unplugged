@@ -533,6 +533,9 @@
       "+1V35": [
         "Default"
       ],
+      "+3V3": [
+        "Default"
+      ],
       "+5V": [
         "Default"
       ],
@@ -569,6 +572,9 @@
       "/power_reg/PG_1V35": [
         "Default"
       ],
+      "/power_reg/PG_3V3": [
+        "Default"
+      ],
       "/power_reg/PG_Vccaux": [
         "Default"
       ],
@@ -581,6 +587,9 @@
       "/power_reg/SW_1V35": [
         "Default"
       ],
+      "/power_reg/SW_3V3": [
+        "Default"
+      ],
       "/power_reg/SW_Vccaux": [
         "Default"
       ],
@@ -591,6 +600,9 @@
         "Default"
       ],
       "Net-(R25-Pad2)": [
+        "Default"
+      ],
+      "Net-(R32-Pad2)": [
         "Default"
       ],
       "Net-(R8-Pad2)": [
@@ -606,6 +618,9 @@
         "Default"
       ],
       "Net-(U8-FB)": [
+        "Default"
+      ],
+      "Net-(U9-FB)": [
         "Default"
       ]
     },
