@@ -563,6 +563,15 @@
       "/power_reg/EN_Vccint": [
         "Default"
       ],
+      "/power_reg/FB_1V2": [
+        "Default"
+      ],
+      "/power_reg/FB_1V35": [
+        "Default"
+      ],
+      "/power_reg/FB_3V3": [
+        "Default"
+      ],
       "/power_reg/FB_Vccint": [
         "Default"
       ],
@@ -618,9 +627,6 @@
         "Default"
       ],
       "Net-(U8-FB)": [
-        "Default"
-      ],
-      "Net-(U9-FB)": [
         "Default"
       ]
     },
