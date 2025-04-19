@@ -527,6 +527,12 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "+1V2": [
+        "Default"
+      ],
+      "+1V35": [
+        "Default"
+      ],
       "+5V": [
         "Default"
       ],
@@ -536,16 +542,43 @@
       "+Vccint": [
         "Default"
       ],
+      "/ext_power/EN_4V4": [
+        "Default"
+      ],
+      "/ext_power/FB_5V4": [
+        "Default"
+      ],
+      "/ext_power/PROT_12V": [
+        "Default"
+      ],
+      "/ext_power/REG_5V4": [
+        "Default"
+      ],
+      "/ext_power/SW_5V4": [
+        "Default"
+      ],
       "/power_reg/EN_Vccint": [
         "Default"
       ],
       "/power_reg/FB_Vccint": [
         "Default"
       ],
+      "/power_reg/PG_1V2": [
+        "Default"
+      ],
+      "/power_reg/PG_1V35": [
+        "Default"
+      ],
       "/power_reg/PG_Vccaux": [
         "Default"
       ],
       "/power_reg/PG_Vccint": [
+        "Default"
+      ],
+      "/power_reg/SW_1V2": [
+        "Default"
+      ],
+      "/power_reg/SW_1V35": [
         "Default"
       ],
       "/power_reg/SW_Vccaux": [
@@ -555,6 +588,21 @@
         "Default"
       ],
       "GND": [
+        "Default"
+      ],
+      "Net-(R25-Pad2)": [
+        "Default"
+      ],
+      "Net-(R8-Pad2)": [
+        "Default"
+      ],
+      "Net-(U3-PG)": [
+        "Default"
+      ],
+      "Net-(U4-FB)": [
+        "Default"
+      ],
+      "Net-(U7-FB)": [
         "Default"
       ],
       "Net-(U8-FB)": [
