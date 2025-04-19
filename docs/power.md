@@ -77,9 +77,10 @@ Options for bank voltage selection:
 
 ## Multi Rail Options
 
-The power system needs to support 5 digital rails, plus one analog rail. And
-this assumes that a 5V is not going to be passed along to daughter cards. If
-there is also going to be a 5V rail, then there actually 6 rails + 1 analog.
+The power system needs to support up to 5 digital rails, plus one analog
+rail. And this assumes that a 5V is not going to be passed along to
+daughter cards. If there is also going to be a 5V rail, then there actually
+6 rails + 1 analog.
 
 There are no good options for a single chip to do this, i.e. the best option
 that is stocked at JLCPCB at the time this is written is ADP5052ACPZ-R7, which
@@ -88,6 +89,23 @@ has 4 buck and 1 ldo output.
 > Decision: Design around the [TPS563257DRLR](https://jlcpcb.com/partdetail/TexasInstruments-TPS563257DRLR/C20539656)
 > which is in large supply at JLCPCB.
 > (1.2Mhz, 3V-17V input, adjustable, 3A output.) Use 1 per rail.
+
+Only support common voltages. Since the board will use DDRL, don't
+support 1v5. Don't support 2v5 since it's only used on older peripherals.
+
+> Decision: only support 1v0, 1v8, 1v35, 3v3.
+
+This cuts down the necessary board space, and while it could warrant
+revisiting the rail management, it's already designed. Switching to something
+like the ADP5042 would likely result in using less board space, but
+comes with greater supply chain issues at JLCPCB as it is unclear
+if they will continue to be stocked as they are in lower quantities.
+The TPS563257 has thousands available, and is very inexpensive. Plus,
+the ADP chip only takes up to 6V, so a second regulator would still
+be needed when using 9-12V power.
+
+> Decision: use only a single 1V8 rail. It's ok if it is used as an IO
+> voltage, since it is acceptable for the to come up at the same time.
 
 ### ADC Rail Options
 
