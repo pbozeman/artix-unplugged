@@ -27,7 +27,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "!Misc:QFN50P800X800X100-57N-D"
+			(property "Footprint" "!Misc:88E1512-A0-NNP2C000"
 				(at 46.99 -82.22 0)
 				(effects
 					(font
@@ -1886,7 +1886,7 @@
 				)
 			)
 		)
-		(property "Footprint" "!Misc:QFN50P800X800X100-57N-D"
+		(property "Footprint" "!Misc:88E1512-A0-NNP2C000"
 			(at 83.82 133.02 0)
 			(effects
 				(font

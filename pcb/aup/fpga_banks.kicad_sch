@@ -20,7 +20,7 @@
 					)
 				)
 			)
-			(property "Value" "XC7A50T-FGG484"
+			(property "Value" "XC7A50T-2FGG484C"
 				(at 0 -1.27 0)
 				(effects
 					(font
@@ -28,7 +28,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_BGA:Xilinx_FGG484"
+			(property "Footprint" "!Xilinx:Xilinx_FGG484"
 				(at 0 0 0)
 				(effects
 					(font
@@ -45,7 +45,25 @@
 					)
 				)
 			)
-			(property "Description" "Artix 7 T 50 XC7A50T-FGG484"
+			(property "Description" "XC7A50T-2FGG484C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part #" "C1550658"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digi-Key Part Number" "122-2082-ND"
 				(at 0 0 0)
 				(effects
 					(font
@@ -8275,7 +8293,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_BGA:Xilinx_FGG484"
+		(property "Footprint" "!Xilinx:Xilinx_FGG484"
 			(at 82.55 92.71 0)
 			(effects
 				(font
@@ -8292,7 +8310,25 @@
 				)
 			)
 		)
-		(property "Description" "Artix 7 T 50 XC7A50T-FGG484"
+		(property "Description" "XC7A50T-2FGG484C"
+			(at 82.55 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1550658"
+			(at 82.55 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key Part Number" "122-2082-ND"
 			(at 82.55 92.71 0)
 			(effects
 				(font
@@ -9683,7 +9719,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_BGA:Xilinx_FGG484"
+		(property "Footprint" "!Xilinx:Xilinx_FGG484"
 			(at 201.93 93.98 0)
 			(effects
 				(font
@@ -9700,7 +9736,25 @@
 				)
 			)
 		)
-		(property "Description" "Artix 7 T 50 XC7A50T-FGG484"
+		(property "Description" "XC7A50T-2FGG484C"
+			(at 201.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1550658"
+			(at 201.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key Part Number" "122-2082-ND"
 			(at 201.93 93.98 0)
 			(effects
 				(font
@@ -11093,7 +11147,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:Xilinx_FGG484"
+		(property "Footprint" "!Xilinx:Xilinx_FGG484"
 			(at 76.2 210.82 0)
 			(effects
 				(font
@@ -11110,7 +11164,25 @@
 				)
 			)
 		)
-		(property "Description" "Artix 7 T 50 XC7A50T-FGG484"
+		(property "Description" "XC7A50T-2FGG484C"
+			(at 76.2 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1550658"
+			(at 76.2 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key Part Number" "122-2082-ND"
 			(at 76.2 210.82 0)
 			(effects
 				(font
@@ -12501,7 +12573,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_BGA:Xilinx_FGG484"
+		(property "Footprint" "!Xilinx:Xilinx_FGG484"
 			(at 317.5 92.71 0)
 			(effects
 				(font
@@ -12518,7 +12590,25 @@
 				)
 			)
 		)
-		(property "Description" "Artix 7 T 50 XC7A50T-FGG484"
+		(property "Description" "XC7A50T-2FGG484C"
+			(at 317.5 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1550658"
+			(at 317.5 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key Part Number" "122-2082-ND"
 			(at 317.5 92.71 0)
 			(effects
 				(font

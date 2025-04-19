@@ -3,4 +3,5 @@
   (lib (name "!DF40C")(type "KiCad")(uri "${KIPRJMOD}/../kicad-base/lib/df40c/df40c.pretty")(options "")(descr ""))
   (lib (name "!Mem")(type "KiCad")(uri "${KIPRJMOD}/../kicad-base/lib/mem/mem.pretty")(options "")(descr ""))
   (lib (name "!Misc")(type "KiCad")(uri "${KIPRJMOD}/../kicad-base/lib/misc/misc.pretty")(options "")(descr ""))
+  (lib (name "!Xilinx")(type "KiCad")(uri "${KIPRJMOD}/../kicad-base/lib/xilinx/xilinx.pretty")(options "")(descr ""))
 )
