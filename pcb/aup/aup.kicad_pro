@@ -520,6 +520,12 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "Vccint",
+        "pcb_color": "rgb(255, 255, 0)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
     "meta": {
@@ -543,7 +549,8 @@
         "Default"
       ],
       "+Vccint": [
-        "Default"
+        "Default",
+        "Vccint"
       ],
       "/ext_power/EN_4V4": [
         "Default"
