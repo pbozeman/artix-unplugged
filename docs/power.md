@@ -68,12 +68,12 @@ Vrefp should be set to GNDADC and Vrefn should be set to GND.
 Options for bank voltage selection:
 
 * Jumper on to select a resistor for adjusting a buck regulator. (Numato)
-* Power mux like TPS2116DRLR. In theory, this would prevent cutover issues if
-  a jumper is changed while the system is powered. Given that peripherals
-  would likely also be being swapped, this seems like overkill. (Alacrity)
 * Change SMD resistors (Digilent)
+* Power mux like TPS2116DRLR. (Alacrity) The advantage of this solution is
+  that the selection can be made at a distance, potentially on the expansion
+  board.
 
-> Decision: Use a jumper to adjust the resistors for a buck regulator.
+> Decision: TPS2116DRLR
 
 ## Multi Rail Options
 
