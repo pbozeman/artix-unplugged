@@ -4473,6 +4473,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "TODO: replace Q2 with TPS2116DRLR.\nRemove D1.\nLower Reg 5V4 to REG_5V"
+		(exclude_from_sim no)
+		(at 172.466 45.974 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "54991f47-d328-4ac0-aedc-22f5e46f2b60")
+	)
 	(text "The 12 to 5V regulator outputs 5.4V, with the expectation that it drops after \nthe Schottky by 0.3v under light load, and 0.5v under heavy load. (i.e. 4.9 to 5.1 final\nvoltages) This is based on the VF curves in the SS34 datasheet.\n\nR values based on availability of JLCPCB basic parts. The voltage divider for FB uses \nthe series resistors in the top portion since this seemed to be the only way to achieve\nthe desired ratio with basic parts."
 		(exclude_from_sim no)
 		(at 20.32 189.23 0)
@@ -5658,7 +5669,7 @@
 			(fill
 				(type none)
 			)
-			(uuid bf5aaf0f-46b6-4e06-9cc1-9a8b8260a6ed)
+			(uuid f2a93cd5-0338-4a4b-8a1f-70bf9a88fc75)
 		)
 	)
 	(netclass_flag ""
