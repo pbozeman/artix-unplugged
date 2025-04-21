@@ -603,6 +603,9 @@
       "/ext_power/PROT_12V": [
         "Default"
       ],
+      "/ext_power/REG_5V": [
+        "Default"
+      ],
       "/ext_power/REG_5V4": [
         "Default"
       ],
