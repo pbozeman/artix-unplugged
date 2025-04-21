@@ -4956,7 +4956,7 @@
 		(uuid "b2848122-e2d8-4333-95fd-1cb796c69875")
 	)
 	(junction
-		(at 73.66 111.76)
+		(at 80.01 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bc7c7509-748e-426a-b357-d81454fec1d9")
@@ -5025,7 +5025,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 111.76) (xy 73.66 116.84)
+			(xy 80.01 111.76) (xy 80.01 116.84)
 		)
 		(stroke
 			(width 0)
@@ -5195,7 +5195,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 111.76) (xy 73.66 111.76)
+			(xy 48.26 111.76) (xy 80.01 111.76)
 		)
 		(stroke
 			(width 0)
@@ -5315,7 +5315,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 111.76) (xy 73.66 110.49)
+			(xy 80.01 111.76) (xy 80.01 110.49)
 		)
 		(stroke
 			(width 0)
@@ -5365,7 +5365,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 124.46) (xy 68.58 124.46)
+			(xy 50.8 124.46) (xy 74.93 124.46)
 		)
 		(stroke
 			(width 0)
@@ -5395,7 +5395,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 124.46) (xy 93.98 124.46)
+			(xy 85.09 124.46) (xy 100.33 124.46)
 		)
 		(stroke
 			(width 0)
@@ -5495,7 +5495,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 121.92) (xy 68.58 121.92)
+			(xy 50.8 121.92) (xy 74.93 121.92)
 		)
 		(stroke
 			(width 0)
@@ -5592,6 +5592,16 @@
 			(type default)
 		)
 		(uuid "a6f686e2-7e76-4cf7-bc26-fa42896bbde8")
+	)
+	(wire
+		(pts
+			(xy 80.01 111.76) (xy 233.68 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a749ca21-919b-4f92-af1c-9a3174aba7fe")
 	)
 	(wire
 		(pts
@@ -5825,16 +5835,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 111.76) (xy 233.68 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7aed610-169f-4846-a16e-838d70783055")
-	)
-	(wire
-		(pts
 			(xy 31.75 156.21) (xy 33.02 156.21)
 		)
 		(stroke
@@ -5855,7 +5855,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 121.92) (xy 93.98 121.92)
+			(xy 85.09 121.92) (xy 100.33 121.92)
 		)
 		(stroke
 			(width 0)
@@ -6035,7 +6035,7 @@
 	)
 	(global_label "DP"
 		(shape input)
-		(at 93.98 124.46 0)
+		(at 100.33 124.46 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6045,7 +6045,7 @@
 		)
 		(uuid "e28c35c5-3f94-4e38-a0a7-113651b27093")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.5052 124.46 0)
+			(at 105.8552 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6057,7 +6057,7 @@
 	)
 	(global_label "DN"
 		(shape input)
-		(at 93.98 121.92 0)
+		(at 100.33 121.92 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6067,7 +6067,7 @@
 		)
 		(uuid "fe655bbd-2c68-4486-9775-5806e04020f5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.5657 121.92 0)
+			(at 105.9157 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6883,7 +6883,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 73.66 129.54 0)
+		(at 80.01 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6892,7 +6892,7 @@
 		(fields_autoplaced yes)
 		(uuid "3b362e3c-6fbc-48d5-ba33-cf786a3191df")
 		(property "Reference" "#PWR06"
-			(at 73.66 135.89 0)
+			(at 80.01 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6901,7 +6901,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 73.66 134.62 0)
+			(at 80.01 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6909,7 +6909,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 129.54 0)
+			(at 80.01 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6918,7 +6918,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 129.54 0)
+			(at 80.01 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6927,7 +6927,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 73.66 129.54 0)
+			(at 80.01 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8109,7 +8109,7 @@
 	)
 	(symbol
 		(lib_id "!Misc:USBLC6-2SC6")
-		(at 73.66 121.92 0)
+		(at 80.01 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8118,7 +8118,7 @@
 		(fields_autoplaced yes)
 		(uuid "acad3eec-2c81-4282-b429-04f40932aeca")
 		(property "Reference" "U2"
-			(at 75.3111 114.3 0)
+			(at 81.6611 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8127,7 +8127,7 @@
 			)
 		)
 		(property "Value" "USBLC6-2SC6"
-			(at 75.3111 116.84 0)
+			(at 81.6611 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8136,7 +8136,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 74.93 128.27 0)
+			(at 81.28 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8147,7 +8147,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
-			(at 74.93 130.175 0)
+			(at 81.28 130.175 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8157,7 +8157,7 @@
 			)
 		)
 		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
-			(at 73.66 121.92 0)
+			(at 80.01 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8166,7 +8166,7 @@
 			)
 		)
 		(property "LCSC Part #" "C7519"
-			(at 73.66 121.92 0)
+			(at 80.01 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8175,7 +8175,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "497-5235-1-ND"
-			(at 73.66 121.92 0)
+			(at 80.01 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8760,7 +8760,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 73.66 110.49 0)
+		(at 80.01 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8768,7 +8768,7 @@
 		(dnp no)
 		(uuid "c7e0fdcb-6ae7-4897-9e89-b5de3198d8e1")
 		(property "Reference" "#FLG02"
-			(at 73.66 108.585 0)
+			(at 80.01 108.585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8777,7 +8777,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 73.66 105.41 0)
+			(at 80.01 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8785,7 +8785,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 110.49 0)
+			(at 80.01 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8794,7 +8794,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 73.66 110.49 0)
+			(at 80.01 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8803,7 +8803,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 73.66 110.49 0)
+			(at 80.01 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)

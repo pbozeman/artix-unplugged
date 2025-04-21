@@ -54,6 +54,7 @@ From the UG484, for both Vmgtavcc and mgtavtt:
 TODO: Review the entire PCB Design Checklist in UG484.
 TODO: Look into AP7176BFN-7. Once this is used, it might reopen the decisions
 for the power rails.
+TODO: also consider ISL80103IRAJZ-TK
 
 ### XADC Voltages
 

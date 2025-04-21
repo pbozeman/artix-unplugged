@@ -568,7 +568,6 @@
     "netclass_assignments": {
       "+1V0": [
         "Default",
-        "Vccbram",
         "Vccint"
       ],
       "+1V2": [
@@ -675,10 +674,25 @@
       "Net-(U4-FB)": [
         "Default"
       ],
+      "Net-(U6-ADJ)": [
+        "Default"
+      ],
+      "Net-(U6-ENABLE)": [
+        "Default"
+      ],
       "Net-(U7-FB)": [
         "Default"
       ],
       "Net-(U8-FB)": [
+        "Default"
+      ],
+      "unconnected-(U6-NC-Pad8)": [
+        "Default"
+      ],
+      "unconnected-(U6-PG-Pad4)": [
+        "Default"
+      ],
+      "unconnected-(U6-SS-Pad6)": [
         "Default"
       ]
     },
