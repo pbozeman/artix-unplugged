@@ -45,6 +45,16 @@ Each of the GTP voltages needs a filter described in: <https://docs.amd.com/v/u/
 | Vmgtavcc    | 1.00    |
 | Vmgtavtt    | 1.2     |
 
+From the UG484, for both Vmgtavcc and mgtavtt:
+
+* "The power supply regulator for this voltage should not be shared
+  with non-transceiver loads."
+* "For optimal performance, power supply noise must be less than 10 mVPK-PK."
+
+TODO: Review the entire PCB Design Checklist in UG484.
+TODO: Look into AP7176BFN-7. Once this is used, it might reopen the decisions
+for the power rails.
+
 ### XADC Voltages
 
 | Net         | Voltage |
