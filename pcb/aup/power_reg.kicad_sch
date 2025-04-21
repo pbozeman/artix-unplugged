@@ -6401,6 +6401,24 @@
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAA=="
 		)
 	)
@@ -6617,6 +6635,21 @@
 	(rule_area
 		(polyline
 			(pts
+				(xy 194.31 24.13) (xy 194.31 77.724) (xy 328.041 78.486) (xy 328.295 24.638)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 1b479d72-1d4f-4258-9453-be412e6edf91)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
 				(xy 138.43 83.82) (xy 138.3665 133.096) (xy 257.8735 133.604) (xy 257.81 83.82)
 			)
 			(stroke
@@ -6626,7 +6659,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 139f7a0d-d8d9-464f-b67b-3b5d033b69b2)
+			(uuid 1ea2c873-2261-45cd-a79f-726abaeb2b33)
 		)
 	)
 	(rule_area
@@ -6641,7 +6674,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 1fa3596b-e27a-442c-9999-fb9236100331)
+			(uuid 3db6fcbb-9bcf-407d-be79-023f9c7a8d2c)
 		)
 	)
 	(rule_area
@@ -6656,7 +6689,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 34836c5b-62b1-4e39-acab-a504623ed74c)
+			(uuid 8a6716c2-1b8c-4e44-b8b2-6199d3384393)
 		)
 	)
 	(rule_area
@@ -6671,22 +6704,7 @@
 			(fill
 				(type none)
 			)
-			(uuid b0dc5a96-40f3-467f-a591-28d81de70b2f)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 194.31 24.13) (xy 194.31 77.724) (xy 328.041 78.486) (xy 328.295 24.638)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid fd613a83-0a57-4101-ab96-f78db56f424f)
+			(uuid 9682f899-5e55-437d-a076-37963c9a0ace)
 		)
 	)
 	(netclass_flag ""
@@ -6778,7 +6796,7 @@
 				(hide yes)
 			)
 		)
-		(property "Component Class" "REG_Vccaux"
+		(property "Component Class" "REG_1V8"
 			(at 195.072 21.844 0)
 			(effects
 				(font
@@ -6812,7 +6830,7 @@
 				(hide yes)
 			)
 		)
-		(property "Component Class" "REG_Vccint"
+		(property "Component Class" "REG_1V0"
 			(at 40.132 21.844 0)
 			(effects
 				(font
@@ -9731,6 +9749,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+1V0")
+		(at 157.48 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "689c0a0c-d65b-4798-a3d7-7b9b3f977ae7")
+		(property "Reference" "#PWR051"
+			(at 157.48 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V0"
+			(at 157.48 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
+			(at 157.48 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92be182c-2ffb-444f-a98b-2dfad6eab6bb")
+		)
+		(instances
+			(project "aup"
+				(path "/312a869c-f247-4883-8e23-bdad51e1754f/018ff12c-0df9-4a4e-a203-c003842112a1"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 223.52 125.73 0)
 		(unit 1)
@@ -9864,71 +9947,6 @@
 	)
 	(symbol
 		(lib_id "power:+1V0")
-		(at 157.48 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "721949e6-4acc-4132-a157-f0117b3aac45")
-		(property "Reference" "#PWR037"
-			(at 157.48 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+Vccint"
-			(at 157.48 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.48 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 157.48 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "628474cf-9924-40f7-8ec6-418ff2281247")
-		)
-		(instances
-			(project ""
-				(path "/312a869c-f247-4883-8e23-bdad51e1754f/018ff12c-0df9-4a4e-a203-c003842112a1"
-					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+1V0")
 		(at 314.96 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9945,7 +9963,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+Vccaux"
+		(property "Value" "+1V8"
 			(at 314.96 33.02 0)
 			(effects
 				(font
