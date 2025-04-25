@@ -524,31 +524,43 @@
       {
         "name": "GND",
         "pcb_color": "rgb(0, 194, 0)",
-        "priority": 2,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "Vccaux",
         "pcb_color": "rgb(255, 255, 0)",
-        "priority": 3,
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "Vccint",
         "pcb_color": "rgb(255, 0, 255)",
-        "priority": 4,
+        "priority": 6,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "Vmgtavcc",
+        "pcb_color": "rgb(221, 133, 0)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "Vmgtavtt",
+        "pcb_color": "rgb(132, 0, 132)",
+        "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "XGNDadc",
         "pcb_color": "rgb(0, 72, 0)",
-        "priority": 1,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "XVadc",
         "pcb_color": "rgb(0, 72, 72)",
-        "priority": 0,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
@@ -593,6 +605,12 @@
       "/ext_power/EN_4V4": [
         "Default"
       ],
+      "/ext_power/EN_5V": [
+        "Default"
+      ],
+      "/ext_power/FB_5V": [
+        "Default"
+      ],
       "/ext_power/FB_5V4": [
         "Default"
       ],
@@ -603,6 +621,9 @@
         "Default"
       ],
       "/ext_power/REG_5V4": [
+        "Default"
+      ],
+      "/ext_power/SW_5V": [
         "Default"
       ],
       "/ext_power/SW_5V4": [
@@ -638,6 +659,9 @@
       "/power_reg/PG_3V3": [
         "Default"
       ],
+      "/power_reg/PG_5V": [
+        "Default"
+      ],
       "/power_reg/PG_Vccaux": [
         "Default"
       ],
@@ -663,6 +687,9 @@
         "Default"
       ],
       "GND": [
+        "Default"
+      ],
+      "Net-(R12-Pad2)": [
         "Default"
       ],
       "Net-(R25-Pad2)": [
@@ -692,6 +719,15 @@
       "Net-(U8-FB)": [
         "Default"
       ],
+      "unconnected-(U14-NC-Pad8)": [
+        "Default"
+      ],
+      "unconnected-(U14-PG-Pad4)": [
+        "Default"
+      ],
+      "unconnected-(U14-SS-Pad6)": [
+        "Default"
+      ],
       "unconnected-(U6-NC-Pad8)": [
         "Default"
       ],
@@ -718,6 +754,14 @@
       {
         "netclass": "XGNDadc",
         "pattern": "XGNDadc"
+      },
+      {
+        "netclass": "Vmgtavcc",
+        "pattern": "+Vmgtavcc"
+      },
+      {
+        "netclass": "Vmgtavtt",
+        "pattern": "+Vmgtavtt"
       }
     ]
   },
