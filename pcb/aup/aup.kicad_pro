@@ -522,45 +522,51 @@
         "wire_width": 6
       },
       {
+        "name": "DDR",
+        "pcb_color": "rgb(255, 255, 255)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
         "name": "GND",
         "pcb_color": "rgb(0, 194, 0)",
-        "priority": 4,
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "Vccaux",
         "pcb_color": "rgb(255, 255, 0)",
-        "priority": 5,
+        "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "Vccint",
         "pcb_color": "rgb(255, 0, 255)",
-        "priority": 6,
+        "priority": 7,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "Vmgtavcc",
         "pcb_color": "rgb(221, 133, 0)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "Vmgtavtt",
         "pcb_color": "rgb(132, 0, 132)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "XGNDadc",
         "pcb_color": "rgb(0, 72, 0)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "XVadc",
         "pcb_color": "rgb(0, 72, 72)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
@@ -685,6 +691,150 @@
       ],
       "/power_reg/SW_Vccint": [
         "Default"
+      ],
+      "DDR_A0": [
+        "DDR"
+      ],
+      "DDR_A1": [
+        "DDR"
+      ],
+      "DDR_A10": [
+        "DDR"
+      ],
+      "DDR_A11": [
+        "DDR"
+      ],
+      "DDR_A12": [
+        "DDR"
+      ],
+      "DDR_A13": [
+        "DDR"
+      ],
+      "DDR_A2": [
+        "DDR"
+      ],
+      "DDR_A3": [
+        "DDR"
+      ],
+      "DDR_A4": [
+        "DDR"
+      ],
+      "DDR_A5": [
+        "DDR"
+      ],
+      "DDR_A6": [
+        "DDR"
+      ],
+      "DDR_A7": [
+        "DDR"
+      ],
+      "DDR_A8": [
+        "DDR"
+      ],
+      "DDR_A9": [
+        "DDR"
+      ],
+      "DDR_BA0": [
+        "DDR"
+      ],
+      "DDR_BA1": [
+        "DDR"
+      ],
+      "DDR_BA2": [
+        "DDR"
+      ],
+      "DDR_CAS": [
+        "DDR"
+      ],
+      "DDR_CKE": [
+        "DDR"
+      ],
+      "DDR_CK_N": [
+        "DDR"
+      ],
+      "DDR_CK_P": [
+        "DDR"
+      ],
+      "DDR_CS": [
+        "DDR"
+      ],
+      "DDR_DM0": [
+        "DDR"
+      ],
+      "DDR_DM1": [
+        "DDR"
+      ],
+      "DDR_DQ0": [
+        "DDR"
+      ],
+      "DDR_DQ1": [
+        "DDR"
+      ],
+      "DDR_DQ10": [
+        "DDR"
+      ],
+      "DDR_DQ11": [
+        "DDR"
+      ],
+      "DDR_DQ12": [
+        "DDR"
+      ],
+      "DDR_DQ13": [
+        "DDR"
+      ],
+      "DDR_DQ14": [
+        "DDR"
+      ],
+      "DDR_DQ15": [
+        "DDR"
+      ],
+      "DDR_DQ2": [
+        "DDR"
+      ],
+      "DDR_DQ3": [
+        "DDR"
+      ],
+      "DDR_DQ4": [
+        "DDR"
+      ],
+      "DDR_DQ5": [
+        "DDR"
+      ],
+      "DDR_DQ6": [
+        "DDR"
+      ],
+      "DDR_DQ7": [
+        "DDR"
+      ],
+      "DDR_DQ8": [
+        "DDR"
+      ],
+      "DDR_DQ9": [
+        "DDR"
+      ],
+      "DDR_LDQS_N": [
+        "DDR"
+      ],
+      "DDR_LDQS_P": [
+        "DDR"
+      ],
+      "DDR_ODT": [
+        "DDR"
+      ],
+      "DDR_RAS": [
+        "DDR"
+      ],
+      "DDR_RST": [
+        "DDR"
+      ],
+      "DDR_UDQS_P": [
+        "DDR"
+      ],
+      "DDR_UQDS_N": [
+        "DDR"
+      ],
+      "DDR_WE": [
+        "DDR"
       ],
       "GND": [
         "Default"
