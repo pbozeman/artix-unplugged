@@ -524,73 +524,97 @@
       {
         "name": "1V35",
         "pcb_color": "rgb(132, 132, 0)",
-        "priority": 2,
+        "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "3V3",
         "pcb_color": "rgb(0, 255, 255)",
+        "priority": 5,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "BANK_14",
+        "pcb_color": "rgb(194, 194, 194)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "BANK_15",
+        "pcb_color": "rgb(255, 255, 194)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "BANK_16",
+        "pcb_color": "rgb(132, 132, 132)",
         "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "BANK_35",
+        "pcb_color": "rgb(255, 229, 191)",
+        "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "DDR",
         "pcb_color": "rgb(132, 132, 132)",
-        "priority": 4,
+        "priority": 8,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "GND",
         "pcb_color": "rgb(0, 194, 0)",
-        "priority": 9,
+        "priority": 13,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "GTP",
         "pcb_color": "rgb(0, 0, 255)",
-        "priority": 3,
+        "priority": 7,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "Vccaux",
         "pcb_color": "rgb(255, 255, 0)",
-        "priority": 10,
+        "priority": 14,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "Vccint",
         "pcb_color": "rgb(255, 0, 255)",
-        "priority": 11,
+        "priority": 15,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "Vmgtavcc",
         "pcb_color": "rgb(221, 133, 0)",
-        "priority": 6,
+        "priority": 10,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "Vmgtavtt",
         "pcb_color": "rgb(132, 0, 132)",
-        "priority": 5,
+        "priority": 9,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "Vsel",
         "pcb_color": "rgb(0, 132, 132)",
-        "priority": 0,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "XGNDadc",
         "pcb_color": "rgb(0, 72, 0)",
-        "priority": 8,
+        "priority": 12,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "XVadc",
         "pcb_color": "rgb(0, 72, 72)",
-        "priority": 7,
+        "priority": 11,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
@@ -875,6 +899,21 @@
       "Net-(R8-Pad2)": [
         "Default"
       ],
+      "Net-(U1A-IO_0_14)": [
+        "BANK_14"
+      ],
+      "Net-(U1B-IO_0_15)": [
+        "BANK_15"
+      ],
+      "Net-(U1B-IO_0_16)": [
+        "BANK_16"
+      ],
+      "Net-(U1C-IO_0_35)": [
+        "BANK_35"
+      ],
+      "Net-(U1D-MGTPRXN0_216)": [
+        "GTP"
+      ],
       "Net-(U3-PG)": [
         "Default"
       ],
@@ -901,54 +940,6 @@
       ],
       "unconnected-(U14-SS-Pad6)": [
         "Default"
-      ],
-      "unconnected-(U1D-MGTPRXN0_216-PadA8)": [
-        "GTP"
-      ],
-      "unconnected-(U1D-MGTPRXN1_216-PadC11)": [
-        "GTP"
-      ],
-      "unconnected-(U1D-MGTPRXN2_216-PadA10)": [
-        "GTP"
-      ],
-      "unconnected-(U1D-MGTPRXN3_216-PadC9)": [
-        "GTP"
-      ],
-      "unconnected-(U1D-MGTPRXP0_216-PadB8)": [
-        "GTP"
-      ],
-      "unconnected-(U1D-MGTPRXP1_216-PadD11)": [
-        "GTP"
-      ],
-      "unconnected-(U1D-MGTPRXP2_216-PadB10)": [
-        "GTP"
-      ],
-      "unconnected-(U1D-MGTPRXP3_216-PadD9)": [
-        "GTP"
-      ],
-      "unconnected-(U1D-MGTPTXN0_216-PadA4)": [
-        "GTP"
-      ],
-      "unconnected-(U1D-MGTPTXN1_216-PadC5)": [
-        "GTP"
-      ],
-      "unconnected-(U1D-MGTPTXN2_216-PadA6)": [
-        "GTP"
-      ],
-      "unconnected-(U1D-MGTPTXN3_216-PadC7)": [
-        "GTP"
-      ],
-      "unconnected-(U1D-MGTPTXP0_216-PadB4)": [
-        "GTP"
-      ],
-      "unconnected-(U1D-MGTPTXP1_216-PadD5)": [
-        "GTP"
-      ],
-      "unconnected-(U1D-MGTPTXP2_216-PadB6)": [
-        "GTP"
-      ],
-      "unconnected-(U1D-MGTPTXP3_216-PadD7)": [
-        "GTP"
       ],
       "unconnected-(U6-NC-Pad8)": [
         "Default"
@@ -1000,6 +991,22 @@
       {
         "netclass": "Vsel",
         "pattern": "+Vsel"
+      },
+      {
+        "netclass": "BANK_14",
+        "pattern": "/fpga_banks/Bank_14"
+      },
+      {
+        "netclass": "BANK_15",
+        "pattern": "/fpga_banks/Bank_15"
+      },
+      {
+        "netclass": "BANK_16",
+        "pattern": "/fpga_banks/Bank_16"
+      },
+      {
+        "netclass": "BANK_35",
+        "pattern": "/fpga_banks/Bank_35"
       }
     ]
   },
