@@ -21201,7 +21201,7 @@
 		(dnp no)
 		(uuid "f502d063-a731-42b7-b4ea-630210e61cfb")
 		(property "Reference" "U1"
-			(at 43.18 76.2 0)
+			(at 349.25 225.298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21209,7 +21209,7 @@
 			)
 		)
 		(property "Value" "XC7A50T-FGG484"
-			(at 43.18 78.74 0)
+			(at 349.504 227.584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
