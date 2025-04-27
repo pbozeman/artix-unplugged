@@ -16357,51 +16357,6 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 124.46 133.35) (xy 124.46 262.89) (xy 127 262.89) (xy 127 133.35)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 5593d226-f522-4676-a4ce-b1edba3d5083)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 402.59 92.71) (xy 402.59 222.25) (xy 405.13 222.25) (xy 405.13 92.71)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 66e40a1c-5466-47c4-969d-c9cedc40e788)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 252.73 81.28) (xy 252.73 210.82) (xy 255.27 210.82) (xy 255.27 81.28)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 932c432f-1e96-4145-94bb-9c1a65a5e7de)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
 				(xy 26.67 24.13) (xy 26.67 67.31) (xy 29.21 67.31) (xy 29.21 24.13)
 			)
 			(stroke
@@ -16411,7 +16366,22 @@
 			(fill
 				(type none)
 			)
-			(uuid ce2da4a1-768e-4847-9dc0-3282e7750ac5)
+			(uuid 05bf82da-c624-40db-84bf-5bc38e0fd7cf)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 124.46 133.35) (xy 124.46 262.89) (xy 127 262.89) (xy 127 133.35)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 0bbe0bb8-1e5d-4a81-8988-ca19ade4277e)
 		)
 	)
 	(rule_area
@@ -16426,7 +16396,37 @@
 			(fill
 				(type none)
 			)
-			(uuid d087ebdd-acb1-43da-b1a6-a8fb5187fd4e)
+			(uuid 1b1ab772-dbca-471f-9cf9-80b2df19fe45)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 402.59 92.71) (xy 402.59 222.25) (xy 405.13 222.25) (xy 405.13 92.71)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid e73c1bf8-3359-4a3c-9b67-24dbbab92f8b)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 252.73 81.28) (xy 252.73 210.82) (xy 255.27 210.82) (xy 255.27 81.28)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid feb6535f-d9c1-406b-9c78-c772b051255d)
 		)
 	)
 	(netclass_flag ""

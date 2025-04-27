@@ -6165,7 +6165,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 6cd49582-6d8c-41d9-8dda-c2c1dbba8f0f)
+			(uuid 54913ec9-7d14-45ec-8a66-25085419a718)
 		)
 	)
 	(netclass_flag ""
@@ -9291,7 +9291,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1728702-f3f9-44fe-a38f-4afda2595b2c")
-		(property "Reference" "J5"
+		(property "Reference" "J13"
 			(at 254 43.1799 0)
 			(effects
 				(font
@@ -9346,7 +9346,7 @@
 		(instances
 			(project "aup"
 				(path "/312a869c-f247-4883-8e23-bdad51e1754f/66f6f111-4301-4b77-9bf5-52f6219d7e81"
-					(reference "J5")
+					(reference "J13")
 					(unit 1)
 				)
 			)
