@@ -8390,6 +8390,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "14 -> 4, 5\n15 -> 3, 2\n16 -> 12, 1\n35 -> 9, 10"
+		(exclude_from_sim no)
+		(at 163.068 233.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6b0c97b7-13ac-4404-a74a-38e6484a3617")
+	)
 	(junction
 		(at 140.97 140.97)
 		(diameter 0)
@@ -16366,22 +16376,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 05bf82da-c624-40db-84bf-5bc38e0fd7cf)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 124.46 133.35) (xy 124.46 262.89) (xy 127 262.89) (xy 127 133.35)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 0bbe0bb8-1e5d-4a81-8988-ca19ade4277e)
+			(uuid 63866a2a-72da-4bd7-857a-1ce4451649c6)
 		)
 	)
 	(rule_area
@@ -16396,7 +16391,22 @@
 			(fill
 				(type none)
 			)
-			(uuid 1b1ab772-dbca-471f-9cf9-80b2df19fe45)
+			(uuid 84475b85-238d-4c7e-a6f0-6befb62fce56)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 124.46 133.35) (xy 124.46 262.89) (xy 127 262.89) (xy 127 133.35)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 8c5b8cd2-5956-4e22-a7a5-2fe03aa0cb8f)
 		)
 	)
 	(rule_area
@@ -16411,7 +16421,7 @@
 			(fill
 				(type none)
 			)
-			(uuid e73c1bf8-3359-4a3c-9b67-24dbbab92f8b)
+			(uuid b9423a65-4a87-43a5-b5f9-b36e4f5dc3da)
 		)
 	)
 	(rule_area
@@ -16426,7 +16436,7 @@
 			(fill
 				(type none)
 			)
-			(uuid feb6535f-d9c1-406b-9c78-c772b051255d)
+			(uuid f5872bfb-e7a6-4958-9417-fe5038ade3e9)
 		)
 	)
 	(netclass_flag ""

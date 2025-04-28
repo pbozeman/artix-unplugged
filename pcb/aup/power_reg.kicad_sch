@@ -7093,51 +7093,6 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 138.43 82.55) (xy 138.43 132.842) (xy 257.81 132.842) (xy 257.81 82.55)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 05239e51-c747-4a16-8985-c85e9cd9898c)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 39.116 22.86) (xy 39.116 76.2) (xy 169.926 76.2) (xy 169.926 22.86)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 122442ea-cf3c-4a43-a3f1-76793a1194a0)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 114.3 141.732) (xy 114.3 196.088) (xy 213.36 196.088) (xy 213.36 141.605)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 26cb9b80-5be8-46e2-8f84-542e2245e6b1)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
 				(xy 15.24 141.732) (xy 15.24 196.088) (xy 109.22 196.088) (xy 109.22 141.605)
 			)
 			(stroke
@@ -7147,7 +7102,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 43876fd3-a02a-4063-a01f-80451ae4b4d4)
+			(uuid 1a731e78-6091-4d3b-ac93-494ae9770946)
 		)
 	)
 	(rule_area
@@ -7162,7 +7117,37 @@
 			(fill
 				(type none)
 			)
-			(uuid d05fa23d-86d4-4bc7-ac5c-5a84992fbdc0)
+			(uuid 5e1a9a87-369f-44b3-9cac-0f409a8be9fe)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 114.3 141.732) (xy 114.3 196.088) (xy 213.36 196.088) (xy 213.36 141.605)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 69191813-8798-4978-8eec-62531ef30247)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 138.43 82.55) (xy 138.43 132.842) (xy 257.81 132.842) (xy 257.81 82.55)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 79ff156d-e1d3-4fbb-b856-f19fc983fbb4)
 		)
 	)
 	(rule_area
@@ -7177,7 +7162,22 @@
 			(fill
 				(type none)
 			)
-			(uuid e74440dc-73ac-4232-b615-1c278d3b4779)
+			(uuid a3efc93a-28f2-43c2-9f1f-a01c0f2ba7d7)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 39.116 22.86) (xy 39.116 76.2) (xy 169.926 76.2) (xy 169.926 22.86)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid a70983cb-f065-4fab-b99e-51497868b9c8)
 		)
 	)
 	(netclass_flag ""
