@@ -141,3 +141,51 @@ be used for DDR thermal management, sharing the supply, plus a FB seems fine.
 * DDR voltage controller or LDO: Digilent takes this route. It seems excessive.
 
 > Decision: resistor divider on Vccddr.
+
+## Capacitors
+
+### Vccint
+
+| 680 µF | 330 µF | 100 µF | 47 µF | 4.7 µF | 0.47 µF |
+|--------|--------|--------|-------|--------|---------|
+| 0      | 1      | 0      | 0     | 3      | 5       |
+
+### Vccbram
+
+| 100 µF | 47 µF | 4.7 µF | 0.47 µF |
+|--------|-------|--------|---------|
+| 1      | 0     | 0      | 1       |
+
+### Vccaux
+
+| 47 µF | 4.7 µF | 0.47 µF |
+|-------|--------|---------|
+| 1     | 2      | 5       |
+
+### Vcc0 Bank 0
+
+| 47 µF |
+|-------|
+| 1     |
+
+### Vcco (all other banks)
+
+| 47 µF | 4.7 µF | 0.47 µF |
+|-------|--------|---------|
+| 1^     | 2      | 4       |
+
+^47 (or 100uf) can be shared by up to 4 banks
+
+### Capacitor selection
+
+### Table 2-5: PCB Capacitor Specifications
+
+| Ideal Value | Value Range      | Body Size        | Type                                         | ESL Maximum  | ESR Range               | Voltage Rating | Suggested Part Number         |
+|-------------|------------------|------------------|----------------------------------------------|--------------|-------------------------|----------------|-------------------------------|
+| 680 µF      | C > 680 µF       | 2917 / D / 7343  | 2-Terminal Tantalum                          | 2.0 nH       | 5 mΩ < ESR < 40 mΩ      | 2.5V           | T530X687M006ATE018           |
+| 330 µF      | C > 330 µF       | 2917 / D / 7343  | 2-Terminal Tantalum                          | 1 nH         | 5 mΩ < ESR < 40 mΩ      | 2.5V           | T520V337M2R5ATE025           |
+| 330 µF      | C > 330 µF       | 2917 / D / 7343  | 2-Terminal Niobium Oxide                     | 1 nH         | 5 mΩ < ESR < 100 mΩ     | 2.5V           | NOSD337M002#0035             |
+| 100 µF      | C > 100 µF       | 1210             | 2-Terminal Tantalum Ceramic X7R or X5R       | 1 nH         | 1 mΩ < ESR < 40 mΩ      | 2.5V           | GRM32ER60J107ME20L           |
+| 47 µF       | C > 47 µF        | 1210             | 2-Terminal Ceramic X7R or X5R                | 1 nH         | 1 mΩ < ESR < 40 mΩ      | 6.3V           | GRM32ER70J476ME20L           |
+| 4.7 µF      | C > 4.7 µF       | 0805             | 2-Terminal Ceramic X7R or X5R                | 0.5 nH       | 1 mΩ < ESR < 20 mΩ      | 6.3V           | GRM21BR71A475KA73            |
+| 0.47 µF     | C > 0.47 µF      | 0603             | 2-Terminal Ceramic X7R or X5R                | 0.5 nH       | 1 mΩ < ESR < 20 mΩ      | 6.3V           | GRM188R70J474KA01            |
