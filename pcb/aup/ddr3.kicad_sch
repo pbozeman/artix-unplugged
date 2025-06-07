@@ -2197,6 +2197,19 @@
 		)
 		(uuid "af738c5c-2d91-48bd-aaf9-76626ac8cbf0")
 	)
+	(text "???\n"
+		(exclude_from_sim no)
+		(at 240.792 27.686 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "c9bbff8f-b742-4eee-b789-7d4c682d4e26")
+	)
 	(text "need rst pulldown, caps, res between ck_n and ck_p, termination?"
 		(exclude_from_sim no)
 		(at 52.07 51.816 0)

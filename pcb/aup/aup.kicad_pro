@@ -514,7 +514,7 @@
         "microvia_drill": 0.1,
         "name": "90ohm",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.152908,
         "via_diameter": 0.45,
@@ -530,7 +530,7 @@
         "microvia_drill": 0.1,
         "name": "POWER",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.254,
         "via_diameter": 0.45,
@@ -547,12 +547,18 @@
         "microvia_drill": 0.1,
         "name": "POWER_IN",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.381,
         "via_diameter": 0.45,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "Vccint",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
     "meta": {
@@ -571,8 +577,7 @@
         "Default"
       ],
       "+1V8": [
-        "Default",
-        "Vccaux"
+        "Default"
       ],
       "+3V3": [
         "Default"
@@ -912,6 +917,10 @@
       {
         "netclass": "90ohm",
         "pattern": "/USB_D*"
+      },
+      {
+        "netclass": "Vccint",
+        "pattern": "+1V0"
       }
     ]
   },
@@ -1213,7 +1222,7 @@
     ],
     [
       "22e177dc-d629-44c9-af7b-57e03785bd95",
-      "fpga_banks"
+      "fpga_banks_34_45"
     ],
     [
       "f3030c28-a39b-499d-a242-1a3634e8e6f9",
@@ -1222,6 +1231,18 @@
     [
       "7d37766d-6a99-494f-89ce-ad53accce089",
       "fpga_power"
+    ],
+    [
+      "3dc267bb-0310-4616-ba05-967a44c18c30",
+      "fpga_banks_15_16_adj"
+    ],
+    [
+      "d5b6a636-93e3-4913-8cb4-245043c49e22",
+      "fpga_banks_gtp"
+    ],
+    [
+      "710618f1-a170-4d83-814f-11c171d6a235",
+      "fpga_banks_13_14"
     ]
   ],
   "text_variables": {}

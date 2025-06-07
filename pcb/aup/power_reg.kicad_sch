@@ -2442,7 +2442,7 @@
 					(hide yes)
 				)
 			)
-			(property "Digi-Key Part Number" "RES SMD 15K OHM 1% 1/10W 0603"
+			(property "Digi-Key Part Number" "CR0603-FX-1502ELFCT-ND"
 				(at 0 0 0)
 				(effects
 					(font
@@ -10030,7 +10030,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi-Key Part Number" "RES SMD 15K OHM 1% 1/10W 0603"
+		(property "Digi-Key Part Number" "CR0603-FX-1502ELFCT-ND"
 			(at 134.62 59.69 0)
 			(effects
 				(font
@@ -16350,7 +16350,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi-Key Part Number" "RES SMD 15K OHM 1% 1/10W 0603"
+		(property "Digi-Key Part Number" "CR0603-FX-1502ELFCT-ND"
 			(at 223.52 107.95 0)
 			(effects
 				(font

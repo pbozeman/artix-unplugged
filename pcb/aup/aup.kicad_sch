@@ -48,7 +48,7 @@
 		)
 	)
 	(sheet
-		(at 26.924 93.726)
+		(at 128.524 93.726)
 		(size 43.942 33.528)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -63,8 +63,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "22e177dc-d629-44c9-af7b-57e03785bd95")
-		(property "Sheetname" "fpga_banks"
-			(at 26.924 93.0144 0)
+		(property "Sheetname" "fpga_banks_34_45"
+			(at 128.524 93.0144 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -72,8 +72,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "fpga_banks.kicad_sch"
-			(at 26.924 127.8386 0)
+		(property "Sheetfile" "fpga_banks_34_35.kicad_sch"
+			(at 128.524 127.8386 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -85,6 +85,48 @@
 			(project "aup"
 				(path "/312a869c-f247-4883-8e23-bdad51e1754f"
 					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 77.47 92.71)
+		(size 45.72 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3dc267bb-0310-4616-ba05-967a44c18c30")
+		(property "Sheetname" "fpga_banks_15_16_adj"
+			(at 77.47 91.9984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fpga_banks_15_16_adj.kicad_sch"
+			(at 77.47 126.3146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "aup"
+				(path "/312a869c-f247-4883-8e23-bdad51e1754f"
+					(page "11")
 				)
 			)
 		)
@@ -132,8 +174,50 @@
 		)
 	)
 	(sheet
-		(at 127.762 93.726)
-		(size 43.434 33.528)
+		(at 26.67 92.71)
+		(size 48.26 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "710618f1-a170-4d83-814f-11c171d6a235")
+		(property "Sheetname" "fpga_banks_13_14"
+			(at 26.67 91.9984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fpga_banks_13_14.kicad_sch"
+			(at 26.67 126.3146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "aup"
+				(path "/312a869c-f247-4883-8e23-bdad51e1754f"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 73.66 143.51)
+		(size 43.434 30.988)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -148,7 +232,7 @@
 		)
 		(uuid "7d37766d-6a99-494f-89ce-ad53accce089")
 		(property "Sheetname" "fpga_power"
-			(at 127.762 93.0144 0)
+			(at 73.66 142.7984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -157,7 +241,7 @@
 			)
 		)
 		(property "Sheetfile" "fpga_power.kicad_sch"
-			(at 127.762 127.8386 0)
+			(at 73.66 175.0826 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -211,6 +295,48 @@
 			(project "aup"
 				(path "/312a869c-f247-4883-8e23-bdad51e1754f"
 					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 177.8 93.98)
+		(size 48.26 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d5b6a636-93e3-4913-8cb4-245043c49e22")
+		(property "Sheetname" "fpga_banks_gtp"
+			(at 177.8 93.2684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fpga_banks_gtp.kicad_sch"
+			(at 177.8 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "aup"
+				(path "/312a869c-f247-4883-8e23-bdad51e1754f"
+					(page "11")
 				)
 			)
 		)
@@ -300,8 +426,8 @@
 		)
 	)
 	(sheet
-		(at 77.216 93.98)
-		(size 43.688 33.274)
+		(at 24.384 143.51)
+		(size 43.688 32.258)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -316,7 +442,7 @@
 		)
 		(uuid "f3030c28-a39b-499d-a242-1a3634e8e6f9")
 		(property "Sheetname" "fpga_config"
-			(at 77.216 93.2684 0)
+			(at 24.384 142.7984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -325,7 +451,7 @@
 			)
 		)
 		(property "Sheetfile" "fpga_config.kicad_sch"
-			(at 77.216 127.8386 0)
+			(at 24.384 176.3526 0)
 			(effects
 				(font
 					(size 1.27 1.27)
