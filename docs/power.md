@@ -189,3 +189,13 @@ be used for DDR thermal management, sharing the supply, plus a FB seems fine.
 | 47 µF       | C > 47 µF        | 1210             | 2-Terminal Ceramic X7R or X5R                | 1 nH         | 1 mΩ < ESR < 40 mΩ      | 6.3V           | GRM32ER70J476ME20L           |
 | 4.7 µF      | C > 4.7 µF       | 0805             | 2-Terminal Ceramic X7R or X5R                | 0.5 nH       | 1 mΩ < ESR < 20 mΩ      | 6.3V           | GRM21BR71A475KA73            |
 | 0.47 µF     | C > 0.47 µF      | 0603             | 2-Terminal Ceramic X7R or X5R                | 0.5 nH       | 1 mΩ < ESR < 20 mΩ      | 6.3V           | GRM188R70J474KA01            |
+
+The docs above request less bypass caps than there are power pins:
+> Decision: Add a 0.47uf cap to each power pin, even though this
+> is more than required above.
+
+The recommended 0603 package size for the bypass caps is huge, and no
+one seems to actually do this, including AMD's reference board.
+
+> Decision: use 0402 caps under the fpga, despite the initial
+> recommendation being 0603.
