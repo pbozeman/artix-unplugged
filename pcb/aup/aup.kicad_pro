@@ -189,6 +189,7 @@
       "track_widths": [
         0.0,
         0.0762,
+        0.0889,
         0.177038,
         0.186182,
         0.2032,
@@ -567,8 +568,7 @@
     "net_colors": null,
     "netclass_assignments": {
       "+1V0": [
-        "Default",
-        "Vccint"
+        "Default"
       ],
       "+1V2": [
         "Default"

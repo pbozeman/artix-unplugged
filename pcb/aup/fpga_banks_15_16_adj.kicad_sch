@@ -5,7 +5,7 @@
 	(uuid "6001e09d-3a09-441c-8fc0-b4d7ca5efdc9")
 	(paper "USLegal")
 	(lib_symbols
-		(symbol "!Misc:C_0.47uf_0402"
+		(symbol "!Misc:C_0.47uf_0201"
 			(pin_numbers
 				(hide yes)
 			)
@@ -34,7 +34,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 				(at 0 0 0)
 				(effects
 					(font
@@ -52,7 +52,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Unpolarized capacitor 0.47uf 0402"
+			(property "Description" "Unpolarized capacitor 0.47uf 0201"
 				(at 0 0 0)
 				(effects
 					(font
@@ -61,7 +61,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part #" "C1779"
+			(property "LCSC Part #" "C318543"
 				(at 0 0 0)
 				(effects
 					(font
@@ -70,7 +70,7 @@
 					(hide yes)
 				)
 			)
-			(property "Digi-Key Part Number" "1276-1173-1-ND"
+			(property "Digi-Key Part Number" "1276-1337-1-ND"
 				(at 0 0 0)
 				(effects
 					(font
@@ -97,7 +97,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_0.47uf_0402_0_1"
+			(symbol "C_0.47uf_0201_0_1"
 				(polyline
 					(pts
 						(xy -1.524 0.508) (xy 1.524 0.508)
@@ -123,7 +123,7 @@
 					)
 				)
 			)
-			(symbol "C_0.47uf_0402_1_1"
+			(symbol "C_0.47uf_0201_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 2.032)
@@ -12652,21 +12652,6 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 48.26 59.69) (xy 48.26 189.23) (xy 50.8 189.23) (xy 50.8 59.69)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 1a653694-e4a6-4a12-9de7-d674a214ee5c)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
 				(xy 157.48 59.69) (xy 157.48 189.23) (xy 160.02 189.23) (xy 160.02 59.69)
 			)
 			(stroke
@@ -12676,7 +12661,22 @@
 			(fill
 				(type none)
 			)
-			(uuid b789ad84-84e4-470b-934d-bb649b259b75)
+			(uuid ddc80905-8ac8-49eb-b99e-27f484c7cd63)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 48.26 59.69) (xy 48.26 189.23) (xy 50.8 189.23) (xy 50.8 59.69)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid f8985f70-2542-402b-9848-93d69bb451bf)
 		)
 	)
 	(netclass_flag ""
@@ -12807,7 +12807,7 @@
 		)
 	)
 	(symbol
-		(lib_id "!Misc:C_0.47uf_0402")
+		(lib_id "!Misc:C_0.47uf_0201")
 		(at 210.82 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12834,7 +12834,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 210.82 66.04 0)
 			(effects
 				(font
@@ -12852,7 +12852,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor 0.47uf 0402"
+		(property "Description" "Unpolarized capacitor 0.47uf 0201"
 			(at 210.82 66.04 0)
 			(effects
 				(font
@@ -12861,7 +12861,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C1779"
+		(property "LCSC Part #" "C318543"
 			(at 210.82 66.04 0)
 			(effects
 				(font
@@ -12870,7 +12870,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi-Key Part Number" "1276-1173-1-ND"
+		(property "Digi-Key Part Number" "1276-1337-1-ND"
 			(at 210.82 66.04 0)
 			(effects
 				(font
@@ -12895,7 +12895,7 @@
 		)
 	)
 	(symbol
-		(lib_id "!Misc:C_0.47uf_0402")
+		(lib_id "!Misc:C_0.47uf_0201")
 		(at 199.39 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12922,7 +12922,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 199.39 66.04 0)
 			(effects
 				(font
@@ -12940,7 +12940,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor 0.47uf 0402"
+		(property "Description" "Unpolarized capacitor 0.47uf 0201"
 			(at 199.39 66.04 0)
 			(effects
 				(font
@@ -12949,7 +12949,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C1779"
+		(property "LCSC Part #" "C318543"
 			(at 199.39 66.04 0)
 			(effects
 				(font
@@ -12958,7 +12958,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi-Key Part Number" "1276-1173-1-ND"
+		(property "Digi-Key Part Number" "1276-1337-1-ND"
 			(at 199.39 66.04 0)
 			(effects
 				(font
@@ -13049,7 +13049,7 @@
 		)
 	)
 	(symbol
-		(lib_id "!Misc:C_0.47uf_0402")
+		(lib_id "!Misc:C_0.47uf_0201")
 		(at 233.68 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13076,7 +13076,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 233.68 66.04 0)
 			(effects
 				(font
@@ -13094,7 +13094,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor 0.47uf 0402"
+		(property "Description" "Unpolarized capacitor 0.47uf 0201"
 			(at 233.68 66.04 0)
 			(effects
 				(font
@@ -13103,7 +13103,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C1779"
+		(property "LCSC Part #" "C318543"
 			(at 233.68 66.04 0)
 			(effects
 				(font
@@ -13112,7 +13112,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi-Key Part Number" "1276-1173-1-ND"
+		(property "Digi-Key Part Number" "1276-1337-1-ND"
 			(at 233.68 66.04 0)
 			(effects
 				(font
@@ -13137,7 +13137,7 @@
 		)
 	)
 	(symbol
-		(lib_id "!Misc:C_0.47uf_0402")
+		(lib_id "!Misc:C_0.47uf_0201")
 		(at 245.11 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13164,7 +13164,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 245.11 66.04 0)
 			(effects
 				(font
@@ -13182,7 +13182,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor 0.47uf 0402"
+		(property "Description" "Unpolarized capacitor 0.47uf 0201"
 			(at 245.11 66.04 0)
 			(effects
 				(font
@@ -13191,7 +13191,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C1779"
+		(property "LCSC Part #" "C318543"
 			(at 245.11 66.04 0)
 			(effects
 				(font
@@ -13200,7 +13200,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi-Key Part Number" "1276-1173-1-ND"
+		(property "Digi-Key Part Number" "1276-1337-1-ND"
 			(at 245.11 66.04 0)
 			(effects
 				(font
@@ -13443,7 +13443,7 @@
 		)
 	)
 	(symbol
-		(lib_id "!Misc:C_0.47uf_0402")
+		(lib_id "!Misc:C_0.47uf_0201")
 		(at 233.68 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13470,7 +13470,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 233.68 99.06 0)
 			(effects
 				(font
@@ -13488,7 +13488,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor 0.47uf 0402"
+		(property "Description" "Unpolarized capacitor 0.47uf 0201"
 			(at 233.68 99.06 0)
 			(effects
 				(font
@@ -13497,7 +13497,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C1779"
+		(property "LCSC Part #" "C318543"
 			(at 233.68 99.06 0)
 			(effects
 				(font
@@ -13506,7 +13506,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi-Key Part Number" "1276-1173-1-ND"
+		(property "Digi-Key Part Number" "1276-1337-1-ND"
 			(at 233.68 99.06 0)
 			(effects
 				(font
@@ -15079,7 +15079,7 @@
 		)
 	)
 	(symbol
-		(lib_id "!Misc:C_0.47uf_0402")
+		(lib_id "!Misc:C_0.47uf_0201")
 		(at 222.25 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15106,7 +15106,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 222.25 66.04 0)
 			(effects
 				(font
@@ -15124,7 +15124,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor 0.47uf 0402"
+		(property "Description" "Unpolarized capacitor 0.47uf 0201"
 			(at 222.25 66.04 0)
 			(effects
 				(font
@@ -15133,7 +15133,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C1779"
+		(property "LCSC Part #" "C318543"
 			(at 222.25 66.04 0)
 			(effects
 				(font
@@ -15142,7 +15142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi-Key Part Number" "1276-1173-1-ND"
+		(property "Digi-Key Part Number" "1276-1337-1-ND"
 			(at 222.25 66.04 0)
 			(effects
 				(font
@@ -15167,7 +15167,7 @@
 		)
 	)
 	(symbol
-		(lib_id "!Misc:C_0.47uf_0402")
+		(lib_id "!Misc:C_0.47uf_0201")
 		(at 187.96 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15194,7 +15194,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 187.96 66.04 0)
 			(effects
 				(font
@@ -15212,7 +15212,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor 0.47uf 0402"
+		(property "Description" "Unpolarized capacitor 0.47uf 0201"
 			(at 187.96 66.04 0)
 			(effects
 				(font
@@ -15221,7 +15221,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C1779"
+		(property "LCSC Part #" "C318543"
 			(at 187.96 66.04 0)
 			(effects
 				(font
@@ -15230,7 +15230,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi-Key Part Number" "1276-1173-1-ND"
+		(property "Digi-Key Part Number" "1276-1337-1-ND"
 			(at 187.96 66.04 0)
 			(effects
 				(font
@@ -15255,7 +15255,7 @@
 		)
 	)
 	(symbol
-		(lib_id "!Misc:C_0.47uf_0402")
+		(lib_id "!Misc:C_0.47uf_0201")
 		(at 199.39 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15282,7 +15282,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 199.39 99.06 0)
 			(effects
 				(font
@@ -15300,7 +15300,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor 0.47uf 0402"
+		(property "Description" "Unpolarized capacitor 0.47uf 0201"
 			(at 199.39 99.06 0)
 			(effects
 				(font
@@ -15309,7 +15309,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C1779"
+		(property "LCSC Part #" "C318543"
 			(at 199.39 99.06 0)
 			(effects
 				(font
@@ -15318,7 +15318,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi-Key Part Number" "1276-1173-1-ND"
+		(property "Digi-Key Part Number" "1276-1337-1-ND"
 			(at 199.39 99.06 0)
 			(effects
 				(font
@@ -15409,7 +15409,7 @@
 		)
 	)
 	(symbol
-		(lib_id "!Misc:C_0.47uf_0402")
+		(lib_id "!Misc:C_0.47uf_0201")
 		(at 187.96 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15436,7 +15436,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 187.96 99.06 0)
 			(effects
 				(font
@@ -15454,7 +15454,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor 0.47uf 0402"
+		(property "Description" "Unpolarized capacitor 0.47uf 0201"
 			(at 187.96 99.06 0)
 			(effects
 				(font
@@ -15463,7 +15463,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C1779"
+		(property "LCSC Part #" "C318543"
 			(at 187.96 99.06 0)
 			(effects
 				(font
@@ -15472,7 +15472,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi-Key Part Number" "1276-1173-1-ND"
+		(property "Digi-Key Part Number" "1276-1337-1-ND"
 			(at 187.96 99.06 0)
 			(effects
 				(font
@@ -15672,7 +15672,7 @@
 		)
 	)
 	(symbol
-		(lib_id "!Misc:C_0.47uf_0402")
+		(lib_id "!Misc:C_0.47uf_0201")
 		(at 245.11 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15699,7 +15699,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 245.11 99.06 0)
 			(effects
 				(font
@@ -15717,7 +15717,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor 0.47uf 0402"
+		(property "Description" "Unpolarized capacitor 0.47uf 0201"
 			(at 245.11 99.06 0)
 			(effects
 				(font
@@ -15726,7 +15726,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C1779"
+		(property "LCSC Part #" "C318543"
 			(at 245.11 99.06 0)
 			(effects
 				(font
@@ -15735,7 +15735,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi-Key Part Number" "1276-1173-1-ND"
+		(property "Digi-Key Part Number" "1276-1337-1-ND"
 			(at 245.11 99.06 0)
 			(effects
 				(font
@@ -15978,7 +15978,7 @@
 		)
 	)
 	(symbol
-		(lib_id "!Misc:C_0.47uf_0402")
+		(lib_id "!Misc:C_0.47uf_0201")
 		(at 222.25 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16005,7 +16005,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 222.25 99.06 0)
 			(effects
 				(font
@@ -16023,7 +16023,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor 0.47uf 0402"
+		(property "Description" "Unpolarized capacitor 0.47uf 0201"
 			(at 222.25 99.06 0)
 			(effects
 				(font
@@ -16032,7 +16032,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C1779"
+		(property "LCSC Part #" "C318543"
 			(at 222.25 99.06 0)
 			(effects
 				(font
@@ -16041,7 +16041,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi-Key Part Number" "1276-1173-1-ND"
+		(property "Digi-Key Part Number" "1276-1337-1-ND"
 			(at 222.25 99.06 0)
 			(effects
 				(font
@@ -16066,7 +16066,7 @@
 		)
 	)
 	(symbol
-		(lib_id "!Misc:C_0.47uf_0402")
+		(lib_id "!Misc:C_0.47uf_0201")
 		(at 210.82 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16093,7 +16093,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 210.82 99.06 0)
 			(effects
 				(font
@@ -16111,7 +16111,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor 0.47uf 0402"
+		(property "Description" "Unpolarized capacitor 0.47uf 0201"
 			(at 210.82 99.06 0)
 			(effects
 				(font
@@ -16120,7 +16120,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C1779"
+		(property "LCSC Part #" "C318543"
 			(at 210.82 99.06 0)
 			(effects
 				(font
@@ -16129,7 +16129,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi-Key Part Number" "1276-1173-1-ND"
+		(property "Digi-Key Part Number" "1276-1337-1-ND"
 			(at 210.82 99.06 0)
 			(effects
 				(font
