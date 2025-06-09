@@ -2151,6 +2151,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "this doesn't match footprint\n"
+		(exclude_from_sim no)
+		(at 180.848 56.896 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "16ba24ee-815f-4fda-bc71-e73e71d014df")
+	)
 	(symbol
 		(lib_id "!Misc:93LC56BT-I/OT")
 		(at 154.94 57.15 0)
