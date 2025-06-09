@@ -510,7 +510,7 @@
         "diff_pair_width": 0.108712,
         "name": "100ohm",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.108712
       },
@@ -524,7 +524,7 @@
         "microvia_drill": 0.1,
         "name": "90ohm",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.152908,
         "via_diameter": 0.45,
@@ -535,6 +535,15 @@
         "diff_pair_gap": 0.10668,
         "diff_pair_width": 0.093472,
         "name": "GTP",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.093472
+      },
+      {
+        "diff_pair_gap": 0.10668,
+        "diff_pair_width": 0.093218,
+        "name": "GTP_CLK",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -549,7 +558,7 @@
         "microvia_drill": 0.1,
         "name": "POWER",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.254,
         "via_diameter": 0.45,
@@ -566,7 +575,7 @@
         "microvia_drill": 0.1,
         "name": "POWER_IN",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.381,
         "via_diameter": 0.45,
@@ -576,7 +585,7 @@
       {
         "name": "Vccint",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
@@ -896,16 +905,16 @@
         "GTP"
       ],
       "MGTREFCLK0N_216": [
-        "GTP"
+        "GTP_CLK"
       ],
       "MGTREFCLK0P_216": [
-        "GTP"
+        "GTP_CLK"
       ],
       "MGTREFCLK1N_216": [
-        "GTP"
+        "GTP_CLK"
       ],
       "MGTREFCLK1P_216": [
-        "GTP"
+        "GTP_CLK"
       ],
       "Net-(R12-Pad2)": [
         "Default"
